@@ -1,0 +1,16 @@
+name: UltimateParkour
+version: 1.0
+main: com.github.rovey.ultimateparkour.UltimateParkour
+api-version: 1.16
+
+commands:
+  spawn:
+    description: Sends you to spawn
+    usage: Use /spawn to teleport to spawn
+  setspawn:
+    description: Sets the spawn to your location
+    usage: Use /setspawn to set the spawn to your current location
+    permission: ultimateparkour.setspawn
+  parkour:
+    description: Parkour commands
+    usage: Use /parkour help for more information
